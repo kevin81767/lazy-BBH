@@ -14,6 +14,7 @@ sublist3r
 waybackurls
 httprobe
 httpx
+aquatone
 unfurl
 byp4xx
 arjun
@@ -21,7 +22,9 @@ LinkFinder
 SecretFinder
 dalfox
 Nikto
+sqlmap
 nmap
+nrich
 masscan
 mapcidr
 metabigor

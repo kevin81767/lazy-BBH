@@ -27,6 +27,13 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 #install httprobe
 go install github.com/tomnomnom/httprobe@latest
 
+#install chromium
+snap install chromium
+
+#install aquatone
+wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip
+unzip aquatone_linux_amd64_1.7.0.zip
+
 #install unfurl
 go install github.com/tomnomnom/unfurl@latest
 
@@ -107,4 +114,6 @@ echo 'alias byp4xx="~/tools/byp4xx/byp4xx.py"' >> ~/.bashrc
 echo 'alias linkfinder="python3 ~/tools/LinkFinder/linkfinder.py"' >> ~/.bashrc
 echo 'alias secretfinder="python3 ~/tools/secretfinder/SecretFinder.py"' >> ~/.bashrc
 echo 'alias sqlmap="python3 ~/tools/sqlmap-dev/sqlmap.py"' >> ~/.bashrc
+echo 'alias aquatone="~/aquatone -chrome-path /snap/bin/chromium"' >> ~/.bashrc
+source ~/.bashrc
 
