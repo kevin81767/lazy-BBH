@@ -9,6 +9,7 @@ Install all Web Security testing tools (Bug bounty or Web penetration testing) w
 ```
 dirsearch
 ffuf
+feroxbuster
 subfinder
 sublist3r
 waybackurls
@@ -24,6 +25,8 @@ dalfox
 Nikto
 sqlmap
 nmap
+sdlookup
+tew
 nrich
 masscan
 mapcidr

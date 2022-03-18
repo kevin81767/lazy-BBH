@@ -11,6 +11,12 @@ pip3 install -r dirsearch/requirements.txt
 #install ffuf
 go install github.com/ffuf/ffuf@latest
 
+#install feroxbuster
+wget https://github.com/epi052/feroxbuster/releases/download/v2.6.1/x86-linux-feroxbuster.zip
+unzip x86-linux-feroxbuster.zip
+chmod +x feroxbuster
+cp feroxbuster /usr/local/bin/
+
 #install subfinder
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
@@ -44,7 +50,6 @@ chmod u+x byp4xx/byp4xx.py
 #install qsreplace
 go install github.com/tomnomnom/qsreplace@latest
 
-
 #arjun
 pip3 install arjun
 
@@ -55,8 +60,7 @@ python LinkFinder/setup.py install
 
 #install secretFinder
 git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
-pip install -r secretfinder/requirements.txt
-
+pip install -r secretfinder/requiremen
 #install dalfox
 go install github.com/hahwul/dalfox/v2@latest
 
@@ -77,6 +81,11 @@ cd masscan
 make install
 cd ../
 
+#install tew
+go install github.com/pry0cc/tew@latest
+
+#install sdlookup
+go install github.com/j3ssie/sdlookup@latest
 
 #install metabigor
 GO111MODULE=on go install github.com/j3ssie/metabigor@latest
