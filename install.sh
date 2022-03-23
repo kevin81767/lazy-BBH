@@ -24,8 +24,18 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 git clone https://github.com/aboul3la/Sublist3r.git
 pip install -r Sublist3r/requirements.txt
 
-#instal waybackurl
+#instal waybackurls
 go install github.com/tomnomnom/waybackurls@latest
+
+#install gau
+go install github.com/lc/gau/v2/cmd/gau@latest
+
+#install uro
+pip3 install uro
+
+#install gf
+go install github.com/tomnomnom/gf@latest
+
 
 #install httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -47,6 +57,13 @@ go install github.com/tomnomnom/unfurl@latest
 git clone https://github.com/lobuhi/byp4xx.git
 chmod u+x byp4xx/byp4xx.py
 
+#install ohmybackup
+git clone https://github.com/tismayil/ohmybackup.git
+go build ohmybackup/ohmybackup.go
+
+#install gup
+go install github.com/channyein1337/gup@latest
+
 #install qsreplace
 go install github.com/tomnomnom/qsreplace@latest
 
@@ -67,6 +84,8 @@ go install github.com/hahwul/dalfox/v2@latest
 #install notify
 go install -v github.com/projectdiscovery/notify/cmd/notify@latest
 
+#install crunch
+apt install crunch
 
 #install nikto
 apt install -y nikto
@@ -124,5 +143,6 @@ echo 'alias linkfinder="python3 ~/tools/LinkFinder/linkfinder.py"' >> ~/.bashrc
 echo 'alias secretfinder="python3 ~/tools/secretfinder/SecretFinder.py"' >> ~/.bashrc
 echo 'alias sqlmap="python3 ~/tools/sqlmap-dev/sqlmap.py"' >> ~/.bashrc
 echo 'alias aquatone="~/aquatone -chrome-path /snap/bin/chromium"' >> ~/.bashrc
+echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"'
 source ~/.bashrc
 
