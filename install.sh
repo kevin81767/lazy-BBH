@@ -93,6 +93,9 @@ apt install -y nikto
 #install nmap
 apt install -y nmap
 
+#install nuclei
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+
 #install masscan
 apt-get --assume-yes install git make gcc
 git clone https://github.com/robertdavidgraham/masscan

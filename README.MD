@@ -28,6 +28,7 @@ dalfox
 Nikto
 sqlmap
 nmap
+nuclei
 sdlookup
 tew
 nrich
