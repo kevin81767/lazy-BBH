@@ -149,6 +149,6 @@ echo 'alias linkfinder="python3 ~/tools/LinkFinder/linkfinder.py"' >> ~/.bashrc
 echo 'alias secretfinder="python3 ~/tools/secretfinder/SecretFinder.py"' >> ~/.bashrc
 echo 'alias sqlmap="python3 ~/tools/sqlmap-dev/sqlmap.py"' >> ~/.bashrc
 echo 'alias aquatone="~/aquatone -chrome-path /snap/bin/chromium"' >> ~/.bashrc
-echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"'
+echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"' >> ~/.bashrc
 source ~/.bashrc
 
