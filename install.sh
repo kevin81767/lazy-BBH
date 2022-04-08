@@ -1,7 +1,10 @@
 #!/bin/bash
 
-mkdir ~/tools
-cd tools
+if [ ! -d "/root/tools" ]; then
+    mkdir "/root/tools"
+fi
+
+cd /root/tools
 
 apt install unzip -y
 #install dirsearch
