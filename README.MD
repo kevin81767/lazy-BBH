@@ -11,9 +11,12 @@ dirsearch
 ffuf
 feroxbuster
 subfinder
+altdns
 sublist3r
 waybackurls
 gau
+uro
+dotdotpwn
 httprobe
 httpx
 aquatone

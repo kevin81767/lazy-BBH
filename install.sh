@@ -6,7 +6,12 @@ fi
 
 cd /root/tools
 
+#install pip3
+apt install python3-pip
+
+#install unzip
 apt install unzip -y
+
 #install dirsearch
 git clone https://github.com/maurosoria/dirsearch.git
 pip3 install -r dirsearch/requirements.txt
@@ -23,6 +28,9 @@ cp feroxbuster /usr/local/bin/
 #install subfinder
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
+#install altdns
+pip3 install py-altdns==1.0.2
+
 #install sublist3r
 git clone https://github.com/aboul3la/Sublist3r.git
 pip install -r Sublist3r/requirements.txt
@@ -35,6 +43,9 @@ go install github.com/lc/gau/v2/cmd/gau@latest
 
 #install uro
 pip3 install uro
+
+#install dotdotpwn
+https://github.com/wireghoul/dotdotpwn.git
 
 #install gf
 go install github.com/tomnomnom/gf@latest
