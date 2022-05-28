@@ -91,7 +91,7 @@ python LinkFinder/setup.py install
 
 #install secretFinder
 git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
-pip install -r secretfinder/requiremen
+pip install -r secretfinder/requirements.txt
 #install dalfox
 go install github.com/hahwul/dalfox/v2@latest
 
@@ -139,14 +139,13 @@ dpkg -i nrich_latest_amd64.deb
 #install sqlmap
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
-#install seclists
-wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip
-unzip SecList.zip
-rm -f SecList.zip
-
 #install assetNote wordlist
 wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH
 
+#install seclists
+wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip
+unzip -f SecList.zip
+rm -f SecList.zip
 
 
 
