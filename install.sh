@@ -92,6 +92,10 @@ python LinkFinder/setup.py install
 #install secretFinder
 git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
 pip install -r secretfinder/requirements.txt
+
+#install gmapsapiscanner
+git clone https://github.com/ozguralp/gmapsapiscanner.git
+
 #install dalfox
 go install github.com/hahwul/dalfox/v2@latest
 
@@ -157,6 +161,7 @@ echo 'alias sublist3r="python3 ~/tools/Sublist3r/sublist3r.py"' >> ~/.bashrc
 echo 'alias byp4xx="~/tools/byp4xx/byp4xx.py"' >> ~/.bashrc
 echo 'alias linkfinder="python3 ~/tools/LinkFinder/linkfinder.py"' >> ~/.bashrc
 echo 'alias secretfinder="python3 ~/tools/secretfinder/SecretFinder.py"' >> ~/.bashrc
+echo 'alias gmapsapiscanner="python3 ~/tools/gmapsapiscanner/maps_api_scanner_python3.py"' >> ~/.bashrc
 echo 'alias sqlmap="python3 ~/tools/sqlmap-dev/sqlmap.py"' >> ~/.bashrc
 echo 'alias aquatone="~/aquatone -chrome-path /snap/bin/chromium"' >> ~/.bashrc
 echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"' >> ~/.bashrc

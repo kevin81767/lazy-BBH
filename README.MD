@@ -27,6 +27,7 @@ arjun
 gup
 LinkFinder
 SecretFinder
+gmapsapiscanner
 dalfox
 Nikto
 sqlmap
