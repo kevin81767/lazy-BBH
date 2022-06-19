@@ -24,9 +24,11 @@ unfurl
 byp4xx
 ohmybackup
 arjun
+js-beautifier
 gup
 LinkFinder
 SecretFinder
+hakoriginfinder
 gmapsapiscanner
 dalfox
 Nikto
@@ -49,4 +51,6 @@ dnsx
 Crunch
 SecLists
 AssetNote wordlist
+Content_discovery_all.txt
+All.txt
 ```

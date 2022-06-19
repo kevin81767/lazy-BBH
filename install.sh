@@ -12,6 +12,11 @@ apt install python3-pip
 #install unzip
 apt install unzip -y
 
+#install seclists
+wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip
+unzip -f SecList.zip
+rm -f SecList.zip
+
 #install dirsearch
 git clone https://github.com/maurosoria/dirsearch.git
 pip3 install -r dirsearch/requirements.txt
@@ -84,6 +89,9 @@ go install github.com/tomnomnom/qsreplace@latest
 #arjun
 pip3 install arjun
 
+# js-beautifier
+pip3 install jsbeautifier
+
 #install linkfinder
 git clone https://github.com/GerbenJavado/LinkFinder.git
 python LinkFinder/setup.py install
@@ -121,6 +129,9 @@ cd masscan
 make install
 cd ../
 
+#install kakoriginfinder
+go install github.com/hakluke/hakoriginfinder@latest
+
 #install tew
 go install github.com/pry0cc/tew@latest
 
@@ -146,10 +157,11 @@ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 #install assetNote wordlist
 wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH
 
-#install seclists
-wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip
-unzip -f SecList.zip
-rm -f SecList.zip
+#install jhaddix wordlist content_discovery_all.txt
+wget https://gist.github.com/jhaddix/b80ea67d85c13206125806f0828f4d10/raw/c81a34fe84731430741e0463eb6076129c20c4c0/content_discovery_all.txt
+
+#install jhaddix wordlist all.txt
+wget https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
 
 
 
