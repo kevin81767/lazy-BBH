@@ -6,8 +6,9 @@ fi
 
 cd /root/tools
 
+apt install update -y
 #install pip3
-apt install python3-pip
+apt install python3-pip -y
 
 #install unzip
 apt install unzip -y
