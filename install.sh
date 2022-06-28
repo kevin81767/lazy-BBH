@@ -155,6 +155,10 @@ dpkg -i nrich_latest_amd64.deb
 #install sqlmap
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
+
+# install IIS_Short_Scanner
+git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
+
 #install assetNote wordlist
 wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH
 

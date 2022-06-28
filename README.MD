@@ -33,6 +33,7 @@ gmapsapiscanner
 dalfox
 Nikto
 sqlmap
+IIS_Short_Scanner
 nmap
 nuclei
 sdlookup
