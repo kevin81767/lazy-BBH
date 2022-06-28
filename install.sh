@@ -13,6 +13,9 @@ apt install python3-pip -y
 #install unzip
 apt install unzip -y
 
+#Install Java jre
+apt install default-jre -y
+
 #install seclists
 wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip
 unzip -f SecList.zip
@@ -130,7 +133,7 @@ cd masscan
 make install
 cd ../
 
-#install kakoriginfinder
+#install hakoriginfinder
 go install github.com/hakluke/hakoriginfinder@latest
 
 #install tew
