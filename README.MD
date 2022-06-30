@@ -19,6 +19,7 @@ uro
 dotdotpwn
 httprobe
 httpx
+anew
 aquatone
 unfurl
 byp4xx
@@ -31,6 +32,7 @@ SecretFinder
 hakoriginfinder
 gmapsapiscanner
 dalfox
+kxss
 Nikto
 sqlmap
 IIS_Short_Scanner

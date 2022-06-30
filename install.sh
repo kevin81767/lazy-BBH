@@ -59,6 +59,8 @@ https://github.com/wireghoul/dotdotpwn.git
 #install gf
 go install github.com/tomnomnom/gf@latest
 
+#install anew
+go install -v github.com/tomnomnom/anew@latest
 
 #install httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -110,6 +112,9 @@ git clone https://github.com/ozguralp/gmapsapiscanner.git
 
 #install dalfox
 go install github.com/hahwul/dalfox/v2@latest
+
+#install kxss
+go install github.com/Emoe/kxss@latest
 
 #install notify
 go install -v github.com/projectdiscovery/notify/cmd/notify@latest
