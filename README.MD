@@ -43,6 +43,7 @@ tew
 nrich
 masscan
 mapcidr
+uncover
 metabigor
 amass
 dnsx

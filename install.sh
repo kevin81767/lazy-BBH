@@ -153,6 +153,9 @@ GO111MODULE=on go install github.com/j3ssie/metabigor@latest
 #install mapcidr
 GO111MODULE=on go install -v github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest
 
+#install uncover
+go install -v github.com/projectdiscovery/uncover/cmd/uncover@latest
+
 #install dnsx
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 
