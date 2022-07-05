@@ -181,7 +181,6 @@ wget https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e5
 
 
 
-echo "Copy all go files in /usr/local/bin"
 cp ~/go/bin/* /usr/local/bin
 
 echo 'alias dirsearch="python3 ~/tools/dirsearch/dirsearch.py"' >> ~/.bashrc
@@ -194,4 +193,6 @@ echo 'alias sqlmap="python3 ~/tools/sqlmap-dev/sqlmap.py"' >> ~/.bashrc
 echo 'alias aquatone="~/aquatone -chrome-path /snap/bin/chromium"' >> ~/.bashrc
 echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"' >> ~/.bashrc
 source ~/.bashrc
+
+echo "DONE!"
 
