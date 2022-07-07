@@ -7,6 +7,7 @@ Install all Web Security testing tools (Bug bounty or Web penetration testing) w
 > Tools
 
 ```
+JRE 8.1 (Java RunTime Environment)
 dirsearch
 ffuf
 feroxbuster

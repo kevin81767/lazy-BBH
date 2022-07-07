@@ -6,7 +6,7 @@ fi
 
 cd /root/tools
 
-apt install update -y
+apt install update -y && apt install upgrade -y
 #install pip3
 apt install python3-pip -y
 
@@ -120,13 +120,13 @@ go install github.com/Emoe/kxss@latest
 go install -v github.com/projectdiscovery/notify/cmd/notify@latest
 
 #install crunch
-apt install crunch
+apt install crunch -y
 
 #install nikto
-apt install -y nikto
+apt install nikto -y
 
 #install nmap
-apt install -y nmap
+apt install nmap -y
 
 #install nuclei
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
@@ -195,4 +195,6 @@ echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"' >> ~/.bashrc
 source ~/.bashrc
 
 echo "DONE!"
+
+echo "💀 H A C K   T H E   P L A N E T  ! ! ! 💀"
 
