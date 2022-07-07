@@ -6,7 +6,7 @@ fi
 
 cd /root/tools
 
-apt install update -y && apt install upgrade -y
+apt update -y && apt upgrade -y
 #install pip3
 apt install python3-pip -y
 
