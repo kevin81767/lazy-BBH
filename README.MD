@@ -2,7 +2,7 @@
 
 Install all Web Security testing tools (Bug bounty or Web penetration testing) with just one-click.
 
-*You need to have `python3` and the latest version of `Go` ([instructions](https://go.dev/doc/install)) installed.*
+*You need to run `apt update -y && apt upgrade -y` and have `python3` and the latest version of `Go` ([instructions](https://go.dev/doc/install)) installed.*
 
 > Tools
 
