@@ -15,6 +15,7 @@ subfinder
 altdns
 sublist3r
 waybackurls
+waymore
 gau
 uro
 dotdotpwn
@@ -37,6 +38,7 @@ kxss
 Nikto
 sqlmap
 IIS_Short_Scanner
+apkleaks
 nmap
 nuclei
 sdlookup

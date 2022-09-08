@@ -46,6 +46,10 @@ pip install -r Sublist3r/requirements.txt
 #instal waybackurls
 go install github.com/tomnomnom/waybackurls@latest
 
+#install waymore
+git clone https://github.com/xnl-h4ck3r/waymore.git
+pip install -r waymore/requirements.txt
+
 #install gau
 go install github.com/lc/gau/v2/cmd/gau@latest
 
@@ -168,6 +172,9 @@ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
 # install IIS_Short_Scanner
 git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
+
+# install apkleaks
+pip3 install apkleaks
 
 #install assetNote wordlist
 wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH
