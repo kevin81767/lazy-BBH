@@ -60,4 +60,5 @@ SecLists
 AssetNote wordlist
 Content_discovery_all.txt
 All.txt
+Fuzz.txt
 ```

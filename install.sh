@@ -185,7 +185,8 @@ wget https://gist.github.com/jhaddix/b80ea67d85c13206125806f0828f4d10/raw/c81a34
 #install jhaddix wordlist all.txt
 wget https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
 
-
+# install BoOom wordlist fuzz.txt
+git clone https://github.com/Bo0oM/fuzz.txt.git
 
 cp ~/go/bin/* /usr/local/bin
 
