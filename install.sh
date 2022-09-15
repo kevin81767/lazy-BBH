@@ -188,6 +188,9 @@ wget https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e5
 # install BoOom wordlist fuzz.txt
 git clone https://github.com/Bo0oM/fuzz.txt.git
 
+# install Trickest Wordlists
+git clone https://github.com/trickest/wordlists.git
+
 cp ~/go/bin/* /usr/local/bin
 
 echo 'alias dirsearch="python3 ~/tools/dirsearch/dirsearch.py"' >> ~/.bashrc

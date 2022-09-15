@@ -57,6 +57,7 @@ dnsx
 ```
 Crunch
 SecLists
+Trickest Wordlist
 AssetNote wordlist
 Content_discovery_all.txt
 All.txt
