@@ -12,6 +12,9 @@ apt install python3-pip -y
 #install unzip
 apt install unzip -y
 
+#install jq
+apt install jq -y
+
 #Install Java jre
 apt install default-jre -y
 
