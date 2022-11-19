@@ -71,6 +71,9 @@ go install -v github.com/tomnomnom/anew@latest
 #install httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
+# install katana
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+
 #install httprobe
 go install github.com/tomnomnom/httprobe@latest
 
@@ -121,6 +124,10 @@ go install github.com/hahwul/dalfox/v2@latest
 
 #install kxss
 go install github.com/Emoe/kxss@latest
+
+#install gxss
+go install github.com/KathanP19/Gxss@latest
+
 
 #install notify
 go install -v github.com/projectdiscovery/notify/cmd/notify@latest

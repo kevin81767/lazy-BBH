@@ -21,6 +21,7 @@ uro
 dotdotpwn
 httprobe
 httpx
+katana
 anew
 aquatone
 unfurl
@@ -35,6 +36,7 @@ hakoriginfinder
 gmapsapiscanner
 dalfox
 kxss
+gxss
 Nikto
 sqlmap
 IIS_Short_Scanner
