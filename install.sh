@@ -204,6 +204,10 @@ git clone https://github.com/Bo0oM/fuzz.txt.git
 # install Trickest Wordlists
 git clone https://github.com/trickest/wordlists.git
 
+# install fuzzuli
+go install -v github.com/musana/fuzzuli@latest
+
+
 cp ~/go/bin/* /usr/local/bin
 
 echo 'alias dirsearch="python3 ~/tools/dirsearch/dirsearch.py"' >> ~/.bashrc

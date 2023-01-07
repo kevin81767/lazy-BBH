@@ -53,6 +53,7 @@ uncover
 metabigor
 amass
 dnsx
+fuzzuli
 
 ```
 >Wordlists
