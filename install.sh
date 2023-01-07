@@ -151,6 +151,9 @@ cd masscan
 make install
 cd ../
 
+#install naabu
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
 #install hakoriginfinder
 go install github.com/hakluke/hakoriginfinder@latest
 

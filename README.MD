@@ -47,6 +47,7 @@ sdlookup
 tew
 nrich
 masscan
+naabu
 mapcidr
 uncover
 metabigor
