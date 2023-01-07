@@ -101,7 +101,7 @@ go install github.com/channyein1337/gup@latest
 #install qsreplace
 go install github.com/tomnomnom/qsreplace@latest
 
-#arjun
+#install arjun
 pip3 install arjun
 
 # js-beautifier
@@ -150,6 +150,9 @@ git clone https://github.com/robertdavidgraham/masscan
 cd masscan
 make install
 cd ../
+
+#install amass
+snap install amass
 
 #install naabu
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
