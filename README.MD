@@ -25,7 +25,7 @@ katana
 anew
 aquatone
 unfurl
-byp4xx
+bypass-403
 ohmybackup
 arjun
 js-beautifier
@@ -33,6 +33,7 @@ gup
 LinkFinder
 SecretFinder
 hakoriginfinder
+CloudSniffer
 gmapsapiscanner
 dalfox
 kxss
@@ -41,6 +42,7 @@ Nikto
 sqlmap
 IIS_Short_Scanner
 apkleaks
+bevigil-cli
 nmap
 nuclei
 sdlookup
@@ -53,6 +55,7 @@ uncover
 metabigor
 amass
 dnsx
+alterx
 fuzzuli
 
 ```

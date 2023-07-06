@@ -87,9 +87,9 @@ unzip aquatone_linux_amd64_1.7.0.zip
 #install unfurl
 go install github.com/tomnomnom/unfurl@latest
 
-#install byp4xx
-git clone https://github.com/lobuhi/byp4xx.git
-chmod u+x byp4xx/byp4xx.py
+#install bypass-403
+git clone https://github.com/iamj0ker/bypass-403.git
+chmod u+x bypass-403/bypass-403.sh
 
 #install ohmybackup
 git clone https://github.com/tismayil/ohmybackup.git
@@ -160,6 +160,12 @@ go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 #install hakoriginfinder
 go install github.com/hakluke/hakoriginfinder@latest
 
+#install CLoudSniffer
+git clone https://github.com/Alaa-abdulridha/CloudSniffer.git
+cd CloudSniffer
+pip install -r requirements.txt
+cd ../
+
 #install tew
 go install github.com/pry0cc/tew@latest
 
@@ -178,6 +184,9 @@ go install -v github.com/projectdiscovery/uncover/cmd/uncover@latest
 #install dnsx
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 
+#install alterx
+go install github.com/projectdiscovery/alterx/cmd/alterx@latest
+
 #install nrich
 wget https://gitlab.com/api/v4/projects/33695681/packages/generic/nrich/latest/nrich_latest_amd64.deb
 dpkg -i nrich_latest_amd64.deb
@@ -191,6 +200,9 @@ git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
 
 # install apkleaks
 pip3 install apkleaks
+
+#install bevigil-cli
+$ pip3 install bevigil-cli
 
 #install assetNote wordlist
 wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH
@@ -215,11 +227,12 @@ cp ~/go/bin/* /usr/local/bin
 
 echo 'alias dirsearch="python3 ~/tools/dirsearch/dirsearch.py"' >> ~/.bashrc
 echo 'alias sublist3r="python3 ~/tools/Sublist3r/sublist3r.py"' >> ~/.bashrc
-echo 'alias byp4xx="~/tools/byp4xx/byp4xx.py"' >> ~/.bashrc
+echo 'alias bypass-403="~/tools/bypass-403/bypass-403.sh"' >> ~/.bashrc
 echo 'alias linkfinder="python3 ~/tools/LinkFinder/linkfinder.py"' >> ~/.bashrc
 echo 'alias secretfinder="python3 ~/tools/secretfinder/SecretFinder.py"' >> ~/.bashrc
 echo 'alias gmapsapiscanner="python3 ~/tools/gmapsapiscanner/maps_api_scanner_python3.py"' >> ~/.bashrc
 echo 'alias sqlmap="python3 ~/tools/sqlmap-dev/sqlmap.py"' >> ~/.bashrc
+echo 'alias cloudsniffer="python3 ~/tools/CloudSniffer/CloudSniffer.py"' >> ~/.bashrc
 echo 'alias aquatone="~/aquatone -chrome-path /snap/bin/chromium"' >> ~/.bashrc
 echo 'alias ohmybackup="~/tools/ohmybackup/ohmybackup"' >> ~/.bashrc
 source ~/.bashrc
