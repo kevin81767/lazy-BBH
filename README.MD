@@ -90,3 +90,11 @@ Clone the repository and run the script:
 git clone https://github.com/yourusername/Lazy-BBH.git
 cd Lazy-BBH
 ./lazy-bbh.sh
+```
+
+
+## Contributing 🤝
+To add new tools, fork the repository, create a branch, and submit a pull request.
+
+## License 📄
+This project is licensed under the MIT License.
