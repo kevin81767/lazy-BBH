@@ -1,72 +1,92 @@
-# Lazy-BBH (Lazy Bug bounty Hunter)
+# Lazy-BBH (Lazy Bug Bounty Hunter) 🐞🔍
 
-Install all Web Security testing tools (Bug bounty or Web penetration testing) with just one-click.
+**Lazy-BBH** installs a comprehensive suite of web security testing tools with just one click!
 
-*You need to run `apt update -y && apt upgrade -y` and have `python3` and the latest version of `Go` ([instructions](https://go.dev/doc/install)) installed.*
+## Prerequisites 📋
 
-> Tools
+- **Python 3**
+- **Latest version of Go**
+- Run `apt update -y && apt upgrade -y` before executing the script.
 
-```
-JRE 8.1 (Java RunTime Environment)
-dirsearch
-ffuf
-feroxbuster
-subfinder
-altdns
-sublist3r
-waybackurls
-waymore
-gau
-uro
-dotdotpwn
-httprobe
-httpx
-katana
-anew
-aquatone
-unfurl
-bypass-403
-ohmybackup
-arjun
-js-beautifier
-gup
-LinkFinder
-SecretFinder
-hakoriginfinder
-CloudSniffer
-gmapsapiscanner
-dalfox
-kxss
-gxss
-Nikto
-sqlmap
-IIS_Short_Scanner
-apkleaks
-bevigil-cli
-nmap
-nuclei
-sdlookup
-tew
-nrich
-masscan
-naabu
-mapcidr
-uncover
-metabigor
-amass
-dnsx
-alterx
-fuzzuli
+## Tools Included 🛠️
 
-```
->Wordlists
+### Reconnaissance 🔍
 
-```
-Crunch
-SecLists
-Trickest Wordlist
-AssetNote wordlist
-Content_discovery_all.txt
-All.txt
-Fuzz.txt
-```
+- subfinder
+- altdns
+- sublist3r
+- waybackurls
+- waymore
+- gau
+- httprobe
+- linkfinder
+- SecretFinder
+- httpx
+- hakoriginfinder
+- apkleaks
+- dnsx
+- amass
+- bevigil-cli
+
+### Scanning 🔎
+
+- nmap
+- masscan
+- naabu
+- nikto
+- nuclei
+
+### Enumeration 📜
+
+- dirsearch
+- ffuf
+- feroxbuster
+- arjun
+- CloudSniffer
+- tew
+- metabigor
+- uncover
+- mapcidr
+- alterx
+
+
+### Exploitation & Post-Exploitation 💥
+
+- dalfox
+- kxss
+- gxss
+- dotdotpwn
+- sqlmap
+- IIS_Short_Scanner
+- bypass-403
+
+
+### Utilities & Wordlists 🛠️
+
+- JRE 8.1
+- uro
+- gf
+- anew
+- aquatone
+- unfurl
+- fuzzuli
+- qsreplace
+- ohmybackup
+- js-beautifier
+- gup
+- crunch
+- SecLists
+- Trickest Wordlist
+- AssetNote Wordlist
+- content_discovery_all.txt
+- all.txt
+- fuzz.txt
+
+## Installation 🖥️
+
+Clone the repository and run the script:
+
+```bash
+git clone https://github.com/yourusername/Lazy-BBH.git
+cd Lazy-BBH
+./lazy-bbh.sh
