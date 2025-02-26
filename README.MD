@@ -48,6 +48,7 @@
 - uncover
 - mapcidr
 - alterx
+- gungnir
 
 
 ### Exploitation & Post-Exploitation 💥
@@ -55,7 +56,6 @@
 - dalfox
 - kxss
 - gxss
-- dotdotpwn
 - sqlmap
 - IIS_Short_Scanner
 - bypass-403
@@ -69,6 +69,7 @@
 - anew
 - aquatone
 - unfurl
+- misconfig-mapper
 - fuzzuli
 - qsreplace
 - ohmybackup

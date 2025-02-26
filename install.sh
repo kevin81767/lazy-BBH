@@ -59,8 +59,6 @@ go install github.com/lc/gau/v2/cmd/gau@latest
 #install uro
 pip3 install uro
 
-#install dotdotpwn
-https://github.com/wireghoul/dotdotpwn.git
 
 #install gf
 go install github.com/tomnomnom/gf@latest
@@ -90,6 +88,13 @@ go install github.com/tomnomnom/unfurl@latest
 #install bypass-403
 git clone https://github.com/iamj0ker/bypass-403.git
 chmod u+x bypass-403/bypass-403.sh
+
+#install misconfig-mapper
+git clone https://github.com/intigriti/misconfig-mapper.git
+cd misconfig-mapper/
+go build -o misconfig-mapper
+cp misconfig-mapper /usr/local/bin/
+cd ../
 
 #install ohmybackup
 git clone https://github.com/tismayil/ohmybackup.git
@@ -186,6 +191,9 @@ go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 
 #install alterx
 go install github.com/projectdiscovery/alterx/cmd/alterx@latest
+
+#install gungnir
+go install github.com/g0ldencybersec/gungnir/cmd/gungnir@latest
 
 #install nrich
 wget https://gitlab.com/api/v4/projects/33695681/packages/generic/nrich/latest/nrich_latest_amd64.deb
