@@ -59,6 +59,7 @@
 - sqlmap
 - IIS_Short_Scanner
 - bypass-403
+- loxs
 
 
 ### Utilities & Wordlists 🛠️

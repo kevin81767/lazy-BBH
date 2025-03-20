@@ -89,6 +89,10 @@ go install github.com/tomnomnom/unfurl@latest
 git clone https://github.com/iamj0ker/bypass-403.git
 chmod u+x bypass-403/bypass-403.sh
 
+#install loxs
+git clone https://github.com/coffinxp/loxs.git
+pip3 install -r loxs/requirements.txt
+
 #install misconfig-mapper
 git clone https://github.com/intigriti/misconfig-mapper.git
 cd misconfig-mapper/
